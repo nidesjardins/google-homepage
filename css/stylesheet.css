@@ -3,8 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
     min-height: 100vh;
+    margin: 0;
     font-family: Roboto, arial, helvetica, sans-serif;
 }
 
@@ -24,6 +24,10 @@ ul {
 
 .right {
     padding-right: 20px;
+}
+
+.left {
+    padding-left: 30px;
 }
 
 li {
@@ -61,6 +65,18 @@ a:not(.sign-in):not(.google-apps):hover {
     background-color: #4285f4;
 }
 
+
+/* Main content */
+
+
+
+
+
+
+
+
+
+
 /* Footer and footer navigation bar style */
 .nav-footer{
     display: flex;
@@ -75,7 +91,6 @@ footer {
 }
 
 .country {
-    padding-left: 15px;
     color: rgba(0,0,0,.54);
     font-size: 15px;
     border-bottom: 1px solid #dadce0;
