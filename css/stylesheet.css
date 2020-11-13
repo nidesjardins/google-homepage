@@ -34,7 +34,7 @@ li {
     padding-right: 15px;
 }
 
-a {
+li a {
     text-decoration: none;
 }
 
@@ -75,40 +75,60 @@ main {
 
 form {
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-direction: column; 
 }
 
 .google-logo{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 270px;
+    max-height: 270px;
+    margin-top: -50px;
 }
 
 .search {
     display: flex;
     align-items: center;
     height: 40px;
+    width: 500px;
+    margin-top: 30px;
     border: 1px solid #dfe1e5;
     border-radius:24px;
     background-color: transparent;
 }
 
 .fa-search {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .search-bar {
     height: 28px;
-    border-color: black;
+    flex:100%;
+    max-width: 450px;
+    border-color: transparent;
 }
 
 .btn{
+    color: #202124; 
+    margin-top: 30px;
+    font-size: 14px;
+    width: 125px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+.language{
+    font-size: 14px;
+}
+
+.btn:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f9fa,#f8f9fa);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
-    color: #202124; 
-    height: 36px;
+    color: #202124;
 }
 
 
